@@ -1,0 +1,228 @@
+body {
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 1000;
+}
+
+a, p, span {
+
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	color : #378c3f;
+}
+
+.ttl {
+	font-weight: 1000;
+}
+.vert {
+	background: #378c3f;
+	color : white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.shad{
+	box-shadow: 1px 1px 12px #b5b7b8;
+}
+
+#header{
+	background-image: url("./images/cc-bg-1.jpg");
+	/*background-webkit-filter: brightness(50%);*/
+    background-size: 100% 100%;
+	color: white;
+}
+.jumbotron
+{background: none;}
+#header img {
+	width: 150px;
+	height: 150px;
+
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	background: transparent;
+	color: white;
+}
+
+.nav .ancreme {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+.nav a{
+	background: transparent;
+	color: white;
+	margin-left: 2%;
+}
+
+
+
+
+
+.elmt{
+
+	margin: 3% 0 3% 0;
+}
+
+
+#about, #portofolio, #work, #edu, #ref, #footer{
+
+	margin: 6% 0 6% 0;
+}
+
+#presa{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: -3rem;
+
+
+}
+
+
+
+#link img, #footer img, #choiceport img{
+	width: 40px;
+	height: 40px;
+	margin: 0 1% 0 1%;
+}
+
+.margme {
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#about p span:first-child{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+#choiceport{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+
+
+}
+
+#choiceport img:active{
+    border : 1px solid #378c3f;
+
+
+}
+#choice img{
+	width: 100%;
+}
+
+.workedu .vert {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#work .workedu .vert h2, #work .workedu .vert h6{
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.workedu .vert h2, .workedu .vert h6{
+	text-align: center
+}
+
+.workedu p {
+	margin-top: 5%;
+}
+
+
+.school, {
+	color: #b5b7b8;
+	font-weight: 1000;
+
+}
+
+.gray {
+	color: #b5b7b8;
+	font-weight: 1000;
+	text-transform: uppercase;
+}
+
+#ref img{
+	width: 100%;
+}
+
+.active .row-sm .first{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.carousel-indicators li {
+	background-color:#b5b7b8 ;
+
+}
+
+.carousel-indicators .active {
+	background-color: #378c3f;
+}
+
+
+
+
+
+
+
+#footer .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+
+.footme {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
+}
+.footme p {
+	margin: 0;
+}
+
+
+
+@media screen and (max-width: 700px){
+	
+	#portolio {
+		display: none;
+	}
+}
